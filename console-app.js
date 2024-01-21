@@ -37,7 +37,7 @@ function displayProducts() {
       console.log('Thank you for shopping with us. Goodbye!');
       break;
     }
-  }
+
   
   
   
