@@ -35,7 +35,6 @@ function displayProducts() {
     const continueShopping = prompt('Do you want to continue shopping? (yes/no)').toLowerCase();
     if (continueShopping !== 'yes') {
       console.log('Thank you for shopping with us. Goodbye!');
-      break;
     }
 
   
