@@ -32,17 +32,12 @@ function displayProducts() {
       console.log(`Order placed successfully! Total cost: $${selectedProduct.price}`);
   }
   
-  /*while (true) {
-    displayProducts();
-    const { productId } = getUserInput();
-    processOrder(productId);
-  
     const continueShopping = prompt('Do you want to continue shopping? (yes/no)').toLowerCase();
     if (continueShopping !== 'yes') {
       console.log('Thank you for shopping with us. Goodbye!');
       break;
     }
-  }*/
+  }
   
   
   
