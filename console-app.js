@@ -27,16 +27,10 @@ function displayProducts() {
     return { productId };
   }
 
-  /*function processOrder(productId, quantity) {
+  function processOrder(productId, quantity) {
     const selectedProduct = products.find(product => product.id === productId);
-  
-    // if (selectedProduct && selectedProduct.quantity >= quantity) {
-      //selectedProduct.quantity -= quantity;
       console.log(`Order placed successfully! Total cost: $${selectedProduct.price}`);
-    //} else {
-      // console.log('Product not found or insufficient quantity.');
-    //}
-  }*/
+  }
   
   /*while (true) {
     displayProducts();
