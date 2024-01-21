@@ -8,21 +8,21 @@ const products = [
     { id: 4, name: "hair scrunchies", price: 500 },
 ]
 
-function displayProducts() {
+/*function displayProducts() {
     console.log('Available Products:');
     products.forEach(product => {
       console.log(`${product.id}. ${product.name} - $${product.price}`);
     });
-  }
+  }*/
 
-  function getUserInput() {
-    const productId = parseInt(prompt('Enter the product ID:'));
+  /*function getUserInput() {
+    const productId = parseInt(prompt('hair ribbon'));
     //const quantity = parseInt(prompt('Enter the quantity:'));
    // return { productId, quantity };
     return { productId };
-  }
+  }*/
 
-  function processOrder(productId, quantity) {
+  /*function processOrder(productId, quantity) {
     const selectedProduct = products.find(product => product.id === productId);
   
     // if (selectedProduct && selectedProduct.quantity >= quantity) {
@@ -31,9 +31,9 @@ function displayProducts() {
     //} else {
       // console.log('Product not found or insufficient quantity.');
     //}
-  }
+  }*/
   
-  while (true) {
+  /*while (true) {
     displayProducts();
     const { productId } = getUserInput();
     processOrder(productId);
