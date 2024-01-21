@@ -8,6 +8,12 @@ const products = [
     { id: 4, name: "hair scrunchies", price: 500 },
 ]
 
+function displayProducts() {
+    console.log('1. id 1');
+    console.log('2. id 2');
+    console.log('3. id 3');
+    console.log('4. id 4');
+  } 
 /*function displayProducts() {
     console.log('Available Products:');
     products.forEach(product => {
@@ -43,7 +49,7 @@ const products = [
       console.log('Thank you for shopping with us. Goodbye!');
       break;
     }
-  }
+  }*/
   
   
   
