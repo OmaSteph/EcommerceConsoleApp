@@ -14,19 +14,18 @@ function displayProducts() {
     console.log('3. id 3');
     console.log('4. id 4');
   } 
-/*function displayProducts() {
+
+function displayProducts() {
     console.log('Available Products:');
     products.forEach(product => {
       console.log(`${product.id}. ${product.name} - $${product.price}`);
     });
-  }*/
+  }
 
-  /*function getUserInput() {
-    const productId = parseInt(prompt('hair ribbon'));
-    //const quantity = parseInt(prompt('Enter the quantity:'));
-   // return { productId, quantity };
+  function getUserInput() {
+    const productId = parseInt(prompt('Enter the product ID:'));
     return { productId };
-  }*/
+  }
 
   /*function processOrder(productId, quantity) {
     const selectedProduct = products.find(product => product.id === productId);
